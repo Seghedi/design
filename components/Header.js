@@ -26,7 +26,7 @@ function BeUnique() {
           href="#"
           className="border-2 border-dashed border-purple-500 font-bold px-4 py-2 text-purple-500 mt-4 rounded-xl transition duration-300 ease-in-out hover:bg-purple-500 hover:text-white"
         >
-          Browse our magic
+          Create your site
         </a>
         <Prism
           className="mx-10 mt-10 cursor-pointer shadow-md"
