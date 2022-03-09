@@ -1,6 +1,4 @@
 import HeroTitle from "./HeroTitle";
-import Logo from '../public/logo.svg';
-import Image from 'next/image';
 import Link from 'next/link';
 import { Prism } from '@mantine/prism';
 
@@ -14,7 +12,7 @@ function BeUnique() {
     <>
       <div className="flex flex-col items-center justify-center mt-10">
         <Link href="/" className="cursor-pointer">
-          <Image src={Logo} height={35} width={35} />
+          <img src='https://scloud-assets.s3.eu-central-1.amazonaws.com/logo.svg' className="h-10 w-10" />
         </Link>
         <HeroTitle />
         <span className="mt-2 font-semibold text-center">
