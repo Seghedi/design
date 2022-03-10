@@ -1,8 +1,14 @@
-# Static export example
+# Your open source design.
 
-This example show how to export to static HTML files your Next.js application fetching data from an API to generate a dynamic list of pages.
+Our top-quality web templates are built on top of [NextJS](https://nextjs.org/) & [TailwindCSS](https://tailwindcss.com), giving you the oportunity to have and customize a high-standarded profile for your site.
 
-When trying to run `npm start` it will build and export your pages into the `out` folder and serve them on `localhost:5000`.
+```js
+import { Quality } from 'design.seghedi.com';
+
+function BeUnique() {
+  return <Button>Use our designs.</Button>
+}
+```
 
 ## Preview
 
