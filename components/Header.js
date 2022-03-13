@@ -15,7 +15,7 @@ function BeUnique() {
           <img src='https://scloud-assets.s3.eu-central-1.amazonaws.com/logo.svg' className="h-10 w-10" />
         </Link>
         <HeroTitle />
-        <span className="mt-2 font-semibold text-center">
+        <span className="mt-2 mx-4 font-semibold text-center">
           A top-quality collection of modern web templates, built on top of{" "}
           <span className="underline decoration-purple-500">
             NextJS &amp; TailwindCSS
@@ -28,6 +28,7 @@ function BeUnique() {
         >
           Create your site
         </a>
+        
         <Prism
           className="mx-10 mt-10 cursor-pointer shadow-md"
           colorScheme="dark"
