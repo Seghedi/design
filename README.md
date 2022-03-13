@@ -14,4 +14,4 @@ function BeUnique() {
 
 Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Deploy with Vercel](https://scloud-assets.s3.eu-central-1.amazonaws.com/deploy_button.png)](https://vercel.com/new/git/external?repository-url=https://github.com/Seghedi-Industries/design)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/Seghedi-Industries/design)
