@@ -3,6 +3,7 @@ import Gallery from '../components/Gallery';
 import Header from '../components/Header';
 import Start from '../components/Start';
 import Hosting from '../components/Hosting';
+import HowTo from '../components/HowTo';
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <Header />
       <Start />
       <Gallery />
+      <HowTo />
       <Hosting />
       <Footer />
     </>

@@ -1,15 +1,15 @@
 export default function Footer() {
   return (
     <>
-      <footer className="p-4 md:mx-10 mx-5 bg-white md:flex md:items-center md:justify-between md:p-6 mb-5 text-center">
+      <footer className="p-4 md:mx-10 mx-5 bg-white md:flex md:items-center md:justify-between md:p-6 mb-5 text-center mt-20">
         <span className="text-sm text-black sm:text-center ">
           &copy; 2022{" "}
-          <a href="https://seghedi.com" rel="noopener noreferrer" target="_blank" className="font-extrabold">
+          <a href="https://seghedi.com" rel="noopener noreferrer" target="_blank" className="font-extrabold transition duration-300 ease-in-out hover:underline">
             seghedi.com
           </a>
           . All rights reserved.
         </span>
-        <ul className="flex flex-row border-2 border-dashed border-black p-2 rounded-xl items-center mt-3 text-sm text-black  sm:mt-0">
+        <ul className="flex flex-row border-2 border-dashed border-black p-2 rounded-xl items-center mt-3 text-sm text-black transition duration-300 ease-in-out hover:border-transparent hover:scale-110 hover:shadow-md sm:mt-0">
           <li>
             <a href="#" rel="noopener noreferrer" target="_blank" className="mr-4 font-extrabold md:mr-6">
               About

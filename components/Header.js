@@ -17,7 +17,7 @@ function BeUnique() {
         <HeroTitle />
         <span className="mt-2 mx-4 font-semibold text-center">
           A top-quality collection of modern web templates, built on top of{" "}
-          <span className="underline decoration-purple-500">
+          <span className="underline decoration-purple-500 decoration-2">
             NextJS &amp; TailwindCSS
           </span>
           .

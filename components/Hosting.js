@@ -72,8 +72,8 @@ const cloudflare_features = [
 export default function Hosting() {
   return (
     <>
-      <h3 className="text-center font-extrabold text-3xl mb-1">
-        Best <span className="underline decoration-orange-400 decoration-4">hosting</span> providers?
+      <h3 className="text-center font-extrabold text-3xl mb-1 mt-20">
+        Best <span>hosting</span> providers?
       </h3>
       <p className="text-center font-medium mb-2">
         We got you.
@@ -82,7 +82,7 @@ export default function Hosting() {
         just take a look below.
       </p>
 
-      <div className="flex flex-col md:flex-row justify-center md:space-x-32 md:space-y-0 space-y-10 align-middle items-center content-center w-full">
+      <div className="flex flex-col md:flex-row justify-center md:space-x-32 md:space-y-0 space-y-10 align-middle items-center content-center w-full mb-20">
         <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">
           <img
             src="vercel_logo.png"
