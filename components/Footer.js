@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <footer className="p-4 mx-10 bg-white md:flex md:items-center md:justify-between md:p-6 mb-5">
+      <footer className="p-4 md:mx-10 mx-5 bg-white md:flex md:items-center md:justify-between md:p-6 mb-5 text-center">
         <span className="text-sm text-black sm:text-center ">
           &copy; 2022{" "}
           <a href="https://seghedi.com" rel="noopener noreferrer" target="_blank" className="font-extrabold">
