@@ -15,16 +15,16 @@ export default function Start() {
           </h1>
         </div> */}
         <div className="flex justify-center mt-12">
-          <ArrowCircleDownIcon className="h-10 mb-10 animate-bounce bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full" />
+          <ArrowCircleDownIcon className="h-10 mb-10 animate-bounce shadow-md shadow-pink-500 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-full" />
         </div>
         <div className="grid gap-4 md:grid-cols-3 grid-cols-1 py-2.5 rounded mb-10 mx-10 justify-center align-middle content-center text-center">
-          <Item img="p1.png" name="demo 1" type="Shopping" />
-          <Item img="p1.png" name="demo 2" type="Blog" />
-          <Item img="p1.png" name="demo 3" type="Personal" />
-          <Item img="p1.png" name="demo 3" type="Personal" />
-          <Item img="p1.png" name="demo 3" type="Personal" />
-          <Item img="p1.png" name="demo 3" type="Personal" />
-          <Item img="p1.png" name="demo 3" type="Personal" />
+          <Item img="p1.png" name="demo 1" link="https://vercel.com/new/git/external?repository-url=https://github.com/Seghedi-Industries/demo1" />
+          <Item img="p1.png" name="demo 2" link="Blog" />
+          <Item img="p1.png" name="demo 3" link="Import" />
+          <Item img="p1.png" name="demo 3" link="Personal" />
+          <Item img="p1.png" name="demo 3" link="Personal" />
+          <Item img="p1.png" name="demo 3" link="Personal" />
+          <Item img="p1.png" name="demo 3" link="Personal" />
           
           </div>
       </>

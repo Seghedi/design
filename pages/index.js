@@ -2,6 +2,7 @@ import Footer from '../components/Footer';
 import Gallery from '../components/Gallery';
 import Header from '../components/Header';
 import Start from '../components/Start';
+import Hosting from '../components/Hosting';
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header />
       <Start />
       <Gallery />
+      <Hosting />
       <Footer />
     </>
   );

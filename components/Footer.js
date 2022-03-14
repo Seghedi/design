@@ -1,32 +1,32 @@
 export default function Footer() {
   return (
     <>
-      <footer className="p-4 mx-10 bg-white rounded-lg shadow md:flex md:items-center md:justify-between md:p-6 mb-5">
-        <span className="text-sm text-gray-500 sm:text-center ">
-          © 2022{" "}
-          <a href="https://seghedi.com" className="hover:underline">
+      <footer className="p-4 mx-10 bg-white md:flex md:items-center md:justify-between md:p-6 mb-5">
+        <span className="text-sm text-black sm:text-center ">
+          &copy; 2022{" "}
+          <a href="https://seghedi.com" rel="noopener noreferrer" target="_blank" className="font-extrabold">
             seghedi.com
           </a>
-          . All Rights Reserved.
+          . All rights reserved.
         </span>
-        <ul className="flex flex-wrap items-center mt-3 text-sm text-gray-500  sm:mt-0">
+        <ul className="flex flex-row border-2 border-dashed border-black p-2 rounded-xl items-center mt-3 text-sm text-black  sm:mt-0">
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6 ">
+            <a href="#" rel="noopener noreferrer" target="_blank" className="mr-4 font-extrabold md:mr-6">
               About
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
+            <a href="#" rel="noopener noreferrer" target="_blank" className="mr-4 font-extrabold md:mr-6">
               Privacy Policy
             </a>
           </li>
           <li>
-            <a href="#" className="mr-4 hover:underline md:mr-6">
+            <a href="#" rel="noopener noreferrer" target="_blank" className="mr-4 font-extrabold md:mr-6">
               Licensing
             </a>
           </li>
           <li>
-            <a href="#" className="hover:underline">
+            <a href="#" rel="noopener noreferrer" target="_blank" className="font-extrabold">
               Contact
             </a>
           </li>
