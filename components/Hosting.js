@@ -86,7 +86,7 @@ export default function Hosting() {
         <a href="https://vercel.com/" rel="noopener noreferrer" target="_blank">
           <img
             src="vercel_logo.png"
-            className="h-14 p-2 mt-3 rounded border-2 border-black border-dashed shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-md"
+            className="h-14 p-2 mt-3 rounded border-2 border-black border-solid shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-md"
           />
           <div className="mt-4">
             <ul>
@@ -122,7 +122,7 @@ export default function Hosting() {
           </div>
         </a>
         <a href="https://netlify.com/" rel="noopener noreferrer" target="_blank">
-          <img src="netlify.svg" className="h-14 p-2 mt-3 rounded shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-md hover:shadow-blue-300 border-2 border-blue-300 border-dashed" />
+          <img src="netlify.svg" className="h-14 p-2 mt-3 rounded shadow transition duration-300 ease-in-out hover:-translate-y-1 hover:shadow-md hover:shadow-blue-300 border-2 border-blue-300 border-solid" />
           <div className="mt-4">
             <ul>
               {netlify_features.map((feature) => (
