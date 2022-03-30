@@ -12,6 +12,7 @@ export default function HowTo() {
             Actually, yes.
         </span>
       </div> */}
+      {/* <sad></sad> */}
       <div className="flex justify-center">
           <ArrowCircleDownIcon className="h-10 mb-10 animate-bounce shadow-md shadow-pink-500 bg-gradient-to-b from-indigo-500 via-purple-500 to-pink-500 rounded-full" />
         </div>
